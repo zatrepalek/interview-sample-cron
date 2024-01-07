@@ -1,0 +1,19 @@
+{
+    "name": "tom/samplecron",
+    "require": {
+        "illuminate/console": "^10.39",
+        "crunzphp/crunz": "^3.6",
+        "symfony/lock": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SampleCron\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomáš Zatřepálek",
+            "email": "tomas.zatrepalek@gmail.com"
+        }
+    ]
+}
